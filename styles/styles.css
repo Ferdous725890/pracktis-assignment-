@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-newfront {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-colors {
+  background: rgba(111, 106, 106, 0.264);
+
+}
+
+.first-div {
+  width: 1440px;
+  height: 715px;
+  border: 1px solid red;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.banner-section-full-height {
+  max-width: 1060px;
+  margin: 0 auto;
+  border: 2px solid green;
+}
+
+
+
+/* ==========================================  Sheard style Here =================================== */
+.displayflex {
+  display: flex;
+}
+
+.btn-primary {
+  background-color: #E6533C;
+  border: none;
+  border-radius: 46px;
+  padding: 16px 40px;
+}
+
+/* ==========================================  Nav Bar style Here =================================== */
+.nav-bar {
+  max-width: 1060px;
+  height: 46px;
+  margin: 0 auto;
+  margin-top: 57px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+
+}
+
+.nav-bar ul {}
+
+.nav-bar ul li {
+  list-style: none;
+}
+
+.nav-bar ul li a {
+  background-color: #E6533C;
+  border-radius: 46px;
+  margin: 0 0px 0px 10px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+}
+
+/* ==========================================  Banner style Here =================================== */
+.banner-conteiner-section {
+  justify-content: space-between;
+  margin-top: 100px;
+  border: 2px solid red;
+
+
+}
+
+.banner-conteiner-section img {
+  border: 2px solid red;
+  margin-left: 150px;
+
+}
+
+.banner-content-text-areay {
+  width: 520px;
+  height: 281px;
+  border: 2px solid gray;
+}
+
+/* ==========================================  Hobits style Here =================================== */
+.your-hobits-conteiner {
+  margin-top: 100px;
+}
+
+.hobits-title {
+  width: 671px;
+  height: 120px;
+  border: 1px solid red;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 50px;
+}
+
+.images-conteiners img {
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.images-conteiners {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==========================================  Run section Here =================================== */
+
+.run-section {
+  margin-top: 100px;
+  height: 371px;
+  background-color: rgba(0, 0, 0, 0.376);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.run-images-section img {
+  width: 100%;
+  height: 100%;
+}
+
+.run-images-section {
+  width: 366px;
+  height: 312px;
+  border: 2px solid red;
+}
+
+.run-section-titls-and-description {
+  width: 442px;
+  height: 289px;
+  border: 2px solid red;
+
+}
+
+
+.training-conteiner-section {
+  margin-top: 100px;
+  height: 580px;
+  border: 1px solid red;
+
+}
+
+.training-conteiner-section-titles {
+  width: 671px;
+  height: 119px;
+  border: 1px solid red;
+}
+
+.traininer-images-section-or-galary img {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.traininer-images-section-or-galary {
+  margin-top: 58px;
+  height: 403px;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(12, 12fr);
+  grid-template-rows: repeat(12, 12fr);
+}
+
+.firs-one {
+  grid-column: 1 /span 3;
+  grid-row: 1 /span 6;
+  border: 2px solid green;
+  z-index: 1;
+  position: relative;
+
+}
+
+.firs-two {
+  grid-column: 4 /span 6;
+  grid-row: 1 /span 6;
+  border: 2px solid green;
+  z-index: 1;
+  position: relative;
+
+}
+
+.firs-three {
+  grid-column: 10 /span 3;
+  grid-row: 1 /span 6;
+  border: 2px solid green;
+
+}
+
+/* ================================================== */
+.firs-four {
+  grid-column: 1 /span 5;
+  grid-row: 7 /span 6;
+  border: 2px solid green;
+
+
+}
+
+.firs-five {
+  grid-column: 6 /span 3;
+  grid-row: 7 /span 6;
+  border: 2px solid green;
+  z-index: 2;
+  position: relative;
+
+}
+
+.firs-six {
+  grid-column: 9 /span 4;
+  grid-row: 7 /span 6;
+  border: 2px solid green;
+  z-index: 1;
+  position: relative;
+
+}
+
+.full-time {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(6, 255, 210, 0.50);
+  position: absolute;
+  top: 00%;
+}
+
+.seconed-time {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.30);
+  top: 00%;
+}
+
+.five-times {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(66, 255, 0, 0.30);
+  top: 0%;
+
+}
+
+.six-time {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 71, 255, 0.30);
+  top: 0%;
+}
+
+/* =========================================== table section  */
+.bmi-conteiner-section h1 {
+  text-align: center;
+
+}
+
+.bmi-conteiner-section {
+  height: 487px;
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+  border: 1px solid red;
+}
+
+.bmi-calculators {
+  width: 400px;
+  height: 216px;
+  border: 1px solid red;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: 13px 70px 14px 18px;
+}
+
+
+.your-bmi-section-description-and-titles {
+  width: 577px;
+  height: 96px;
+  border: 1px solid red;
+}
+
+.your-bmi-conteiner-section{
+  width: 577px;
+  height: 386px;
+  border: 1px solid red;  
+}
+.input-conteiner{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 10px;
+  border: 1px solid red;
+}
+.ferdosu-hossen option{
+  padding: 12px 20px 12px 20px;
+}
+.ferdosu-hossen{
+  width: 100%;
+display: grid;
+grid-column: 1 / 3;
+
+}
+
+
+.input-conteiner input{
+  padding: 12px 40px 12px 20px;
+}
+.input-conteiner select{
+  padding: 12px 20px 12px 20px;
+}
+
+
+
+/* >>>>>>>>>>>>> footers */
+.footers{
+  height: 249px;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+.fitne-footers{
+  border: 1px solid red;
+}
+.fitne-footers h3, h1{
+  margin-bottom: 20px;
+}
+.fitne-footers h5{
+  margin-bottom: 10px;
+}
+hr{
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.some{
+  height: 249px;
+  border: 2px solid wheat;
+}
